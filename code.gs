@@ -33,7 +33,7 @@ function getNumTimesInString(str) {
   return numTimes;
 }
 
-// Round the minute to the nearest 15 mins (or 0 if its 60 mins)
+// Round the minute to the nearest 15 mins
 // Ex. 23 mins rounds to 30 mins
 function nearest15Mins(mins) {
   var remainder = mins % 15;
